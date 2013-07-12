@@ -1,0 +1,204 @@
+@charset "utf-8";
+html {
+	overflow-y:scroll;
+}
+
+
+h1 {
+	font-size:1.7em;
+	cursor:default;
+}
+
+h3 {
+	font-weight:bolder;
+}
+
+.body a {
+	padding:2px;
+}
+
+#intro a:hover {
+	background-color:#ccff11;
+	border: 1px solid black;
+	border-radius:4px;
+	padding:1px;
+}
+
+.body {
+	width:800px;
+	font-family:Arial,Verdana,Tahoma;
+	
+}
+
+#header {
+	margin: auto;
+	margin-top:40px;
+	background-color:#ccff11;
+	border-radius:15px;
+	
+}
+
+#header nav, #footer nav, .navdefault {
+	background: #000305;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 2em auto;
+	padding: 0;
+	text-align: center;
+	width: 800px;
+	
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-top-right-radius:0px;
+	border-top-left-radius:0px;
+
+}
+#header nav ul, #footer nav ul {list-style: none; margin: 0 auto; width: 770px;}
+#header nav li{float: left; display: inline; margin: 0;}
+
+#footer nav li { float:none; display: inline-block; margin-right: 2em;}
+
+#header nav a:link, #footer nav a:link {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 1.5em;
+	text-decoration: none;
+}
+#header h1 {
+	color: #000;
+	font-size:3em;
+	padding:0.2em;
+	margin-bottom:15px;
+}
+
+#header h1 strong {
+	font-size:0.5em;
+	font-weight:normal;
+	clear:left;
+	float:right;
+	padding-top:2em;
+}
+
+#header a{
+	text-decoration: none;
+	color:#FFF;
+}
+
+#header nav a:hover, 
+#header nav .active a:link,
+#footer nav a:hover,
+#footer nav .active a:link{
+	background: #ccff11;
+	color: #000;
+	text-shadow: none !important;
+	text-decoration: none;
+}
+
+
+#intro {
+	margin: auto;
+	min-height:300px;
+	position:relative;
+}
+
+#intro a {
+	color:#000;
+}
+
+#intro figure img {
+	width:225px;
+	border: 3px solid black;
+	border-radius: 5px;
+	float:right;
+	margin-left:20px ;
+	margin-right:-20px;
+	margin-bottom: 20px;
+	box-shadow:5px 5px 5px #666;
+}
+
+#intro p {
+	padding:10px;
+	text-align: left;
+}
+
+#footer {
+	margin:auto;
+}
+
+#footer a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+#portfolio_s {
+	font-size:.9em;
+}
+
+.resumecat{
+	/*font-size:1em;
+	font-weight:bold;
+	height:300px;*/
+}
+
+.resumecat li{
+	font-family:arial;
+	font-size:80%;
+}
+
+.portfolio a {
+	text-decoration:underline;
+}
+
+.navsummary{
+	background-color: #ccff11;
+	max-width:inherit;
+	font-size:0.6em;
+	word-wrap:break-word;
+		border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-top-right-radius:0px;
+	border-top-left-radius:0px;
+}
+
+.disclaimer {
+	font-size:0.8em;
+	color:#999999;
+	text-align:center;
+}
+
+.navgreen{
+	background-color:#ccff11;
+}
+
+.navblack{
+	background-color:#000000;
+}
+
+#headername{
+	background-image:url(ryan_logo.png);
+	background-repeat:no-repeat;
+	background-position: 10px 10px;
+	text-indent: -99999px;
+	display:inline-block;
+	height:inherit;
+	width: 300px;
+}
+
+#headerphrase{
+	background-image:url(header_phrase.png);
+	background-repeat:no-repeat;
+	background-position: right 50px;
+	text-indent: -99999px;
+	display:inline-block;
+	float: right;
+	height:inherit;
+	width:280px;
+}
+
+#headerbox{
+	height:90px;
+}
